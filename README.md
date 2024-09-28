@@ -59,7 +59,7 @@ cleaning the data, transforming it into different formats, converting it, and ge
     Data Reader:
 
         All generic QR code scanners and readers. ie https://qrscanner.net/
-        'qr-reader.py'	(returns data to terminal).	
+        	
 ---------------------------------------------------------------------------------------------------------------------------------------------------------	
 
 
