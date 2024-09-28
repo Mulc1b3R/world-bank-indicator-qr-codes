@@ -43,19 +43,33 @@ cleaning the data, transforming it into different formats, converting it, and ge
         Opted for direct extraction from the page rather than the World Bank API 
 		(https://api.worldbank.org/v2/indicator/?format=json), as the API would have resulted in different formats for the indicators.
         Focused on 1488 indicators in a consistent format (AG.CON.FERT.PT.ZS) for clarity and ease of processing.
+
+    Naming convention:
+
+        The format of Wold Bank indicators uses a '.' as a seperator ,eg 'AG.CON.FERT.PT.ZS' but filenames are confused by the use of'.' 
+	so the naming process transforms '.' to '-' . 
+        AG.CON.FERT.PT.ZS (wb indicator) thus becomes AG_CON_FERT_PT_ZS.png when converted to a qr code.
+	(See code for'qr.py').
+
+    Returned data:
+
+       Reading or scanning an indicator qr code returns data in the followning format.
+       Indicator = AG.CON.FERT.PT.ZS  Qr code = AG_CON_FERT_PT_ZS.png  Returned data = AG.CON.FERT.PT.ZS : Fertilizer consumption (% of fertilizer production)
 		
-	Data Reader:
+    Data Reader:
 
         All generic QR code scanners and readers. ie https://qrscanner.net/
         'qr-reader.py'	(returns data to terminal).	
 ---------------------------------------------------------------------------------------------------------------------------------------------------------	
 
+
+
 #Additional Notes:
 
-    ```
+    
     pip install -r requirements.txt
-	```
-	The 'wb-indicators-list.txt' can be utilized for programmatic tasks.
+	
+    The 'wb-indicators-list.txt' can be utilized for programmatic tasks.
 
     The process ensures a structured approach to data handling, transformation, and visualization through QR codes.
     The QR codes enable quick access to indicator information and can be reconverted back to JSON if required.
