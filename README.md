@@ -1,13 +1,16 @@
-# world-bank-indicator-qr-codes
-QR Codes for all 1488 world bank indicators.
------------------------------------------------------------------------------------------------------------------------------
+
 
 # World Bank Indicator QR Codes
+
+QR codes for all 1488 world bank indicators returning indicator code (id) and description.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Data Mining, Cleaning, and QR Code Generation Process
 
 This repository contains a process for extracting World Bank indicators from World Bank Data Portal, 
 cleaning the data, transforming it into different formats, converting it, and generating QR codes based on the indicator information.
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 #Process Overview
 
@@ -45,6 +48,7 @@ cleaning the data, transforming it into different formats, converting it, and ge
 
         All generic QR code scanners and readers. ie https://qrscanner.net/
         'qr-reader.py'	(returns data to terminal).	
+---------------------------------------------------------------------------------------------------------------------------------------------------------	
 
 #Additional Notes:
 
