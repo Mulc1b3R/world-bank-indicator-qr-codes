@@ -8,7 +8,7 @@ QR codes for all 1488 world bank indicators returning indicator code (id) and de
 
 
 # World Bank Data Indicators QR Codes for:
-
+<pre>
 AG.CON.FERT.PT.ZS          Fertilizer consumption (% of fertilizer production)
 AG.CON.FERT.ZS             Fertilizer consumption (kilograms per hectare of arable land)
 AG.LND.AGRI.K2             Agricultural land (sq. km)
@@ -1498,7 +1498,7 @@ VC.IHR.PSRC.FE.P5          Intentional homicides, female (per 100,000 female)
 VC.IHR.PSRC.MA.P5          Intentional homicides, male (per 100,000 male)
 VC.IHR.PSRC.P5             Intentional homicides (per 100,000 people)
                            
-
+</pre>
 
 
 Data Mining, Cleaning, and QR Code Generation Process
