@@ -57,7 +57,7 @@ cleaning the data, transforming it into different formats, converting it, and ge
        Indicator = AG.CON.FERT.PT.ZS  Qr code = AG_CON_FERT_PT_ZS.png  Returned data = AG.CON.FERT.PT.ZS : Fertilizer consumption (% of fertilizer production)
 		
     Data Reader:
-
+        Use the drag and drop qr code reader provided.
         All generic QR code scanners and readers. ie https://qrscanner.net/
         	
 ---------------------------------------------------------------------------------------------------------------------------------------------------------	
